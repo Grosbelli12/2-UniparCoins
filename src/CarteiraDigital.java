@@ -35,6 +35,6 @@ public class CarteiraDigital {
     }
 
     public void Saida() {
-        System.out.println("Obrigado por usar a sua Carteira Digital!");
+        System.out.println("Obrigado por usar a sua Carteira Digital! ");
     }
 }
