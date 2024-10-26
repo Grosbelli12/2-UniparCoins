@@ -28,6 +28,7 @@ public class CarteiraDigital {
 
     public void FazerPagamento(double valorpagamento) {
         if (carteira > 0 && carteira > valorpagamento) {
+            carteira -= valorpagamento;
             System.out.println("Pagamento realizado com sucesso!");
         } else {
             System.out.println("Saldo insuficiente! ");
