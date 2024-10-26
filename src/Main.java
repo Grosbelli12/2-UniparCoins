@@ -26,7 +26,7 @@ public class Main {
                     carteira.FazerPagamento(valorPagar);
                     break;
                 case "3":
-                    System.out.println("Seu saldo atual é: " + carteira.carteira);
+                    System.out.println("Seu saldo atual é: " + carteira.saldo);
                 case "4":
                     carteira.Saida();
             }
