@@ -8,14 +8,6 @@ public class CarteiraDigital {
         System.out.println("Bem-vindo à sua Carteira Digital!");
     }
 
-    public void menu() {
-        System.out.println("Escolha uma opção\n 1- Adicionar Saldo\n 2- Realizar Pagamento\n 3- Verificar Saldo\n 4- Sair ");
-    }
-
-    public String LerEntradaUsuario() {
-        Scanner sc = new Scanner(System.in);
-        return sc.nextLine();
-    }
 
     public void adiconarvalor(double valor) {
         if (valor > 0) {
